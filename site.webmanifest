@@ -1,0 +1,13 @@
+{
+  "name": "The Pace Project Goa — Run Club",
+  "short_name": "Pace Project Goa",
+  "description": "South Goa's run club. Sunday beach-road runs, Run Rave nights, HYROX training and race prep. All paces welcome.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#e8232a",
+  "icons": [
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/assets/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

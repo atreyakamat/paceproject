@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="t d">
+  <title id="t">The Pace Project Goa Run Club</title>
+  <desc id="d">Circular badge with a red gear and running figure, text reads Pace Project Goa Run Club, established 2025</desc>
+  <defs>
+    <path id="arcTop" d="M 26 100 A 74 74 0 0 1 174 100"/>
+    <path id="arcBot" d="M 40 118 A 64 64 0 0 0 160 118"/>
+  </defs>
+  <circle cx="100" cy="100" r="98" fill="#0a0a0a"/>
+  <circle cx="100" cy="100" r="93.5" fill="none" stroke="#e8232a" stroke-width="2"/>
+  <circle cx="100" cy="100" r="89" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="0.8"/>
+  <!-- gear -->
+  <circle cx="100" cy="100" r="41" fill="none" stroke="#e8232a" stroke-width="9" stroke-dasharray="7.6 6.36"/>
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#e8232a" stroke-width="5"/>
+  <!-- runner -->
+  <g fill="none" stroke="#e8232a" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M103 86 L96 103"/>
+    <path d="M101 90 L110 95 L117 90"/>
+    <path d="M100 92 L91 96 L87 103"/>
+    <path d="M96 103 L107 106 L111 118"/>
+    <path d="M96 103 L88 112 L80 110"/>
+  </g>
+  <circle cx="106.5" cy="79" r="5.6" fill="#e8232a"/>
+  <g stroke="#e8232a" stroke-width="2.2" stroke-linecap="round" opacity="0.9">
+    <path d="M74 92 L82 92"/>
+    <path d="M70 99 L80 99"/>
+    <path d="M74 106 L81 106"/>
+  </g>
+  <!-- text -->
+  <text font-family="'Bebas Neue','Arial Narrow',Impact,sans-serif" font-size="17" letter-spacing="2.2" fill="#ffffff" text-anchor="middle">
+    <textPath href="#arcTop" startOffset="50%">PACE PROJECT GOA</textPath>
+  </text>
+  <text font-family="'Bebas Neue','Arial Narrow',Impact,sans-serif" font-size="15" letter-spacing="3" fill="#ffffff" text-anchor="middle">
+    <textPath href="#arcBot" startOffset="50%">RUNCLUB</textPath>
+  </text>
+  <text x="100" y="168" font-family="'Manrope',Arial,sans-serif" font-size="6.5" letter-spacing="1.6" fill="#ffffff" fill-opacity="0.75" text-anchor="middle">EST. 2025</text>
+</svg>
