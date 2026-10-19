@@ -38,7 +38,15 @@ npx serve .
 
 ## Deploy
 
-The site is deployed on Netlify from this repo. Pushing to `main` redeploys.
+Live at https://thepaceprojectgoa.netlify.app (Netlify project `thepaceprojectgoa`).
+
+The current deploy was pushed manually with the Netlify MCP/CLI. To make every push to `main`
+redeploy automatically, connect this GitHub repo in the Netlify dashboard under
+Project configuration → Build & deploy → Link repository. `netlify.toml` already sets the publish
+directory to the repo root, and there is no build step.
+
+The contact form uses Netlify Forms (form detection is enabled on the project). Submissions show up
+under Forms → hello in the Netlify dashboard.
 
 ## Sources
 
